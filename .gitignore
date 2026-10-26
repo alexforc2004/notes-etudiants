@@ -1,5 +1,16 @@
-.venv/
-__pycache__/
-*.db
-.env
 
+.env
+.env.*
+!.env.example
+jetons.json
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backups/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
