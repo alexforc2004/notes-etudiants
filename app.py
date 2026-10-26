@@ -2,7 +2,9 @@
 # Application de consultation des notes des étudiants
 # =================================================================
 import os
+import math
 import sqlite3
+import auth
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
