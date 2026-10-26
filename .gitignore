@@ -2,3 +2,6 @@
 __pycache__/
 *.db
 .env
+
+# Local authentication tokens
+jetons.json
