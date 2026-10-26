@@ -1,5 +1,8 @@
 
 .env
+
+# Local authentication tokens
+jetons.json
 .env.*
 !.env.example
 
