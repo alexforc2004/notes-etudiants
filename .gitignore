@@ -2,15 +2,23 @@
 .env
 .env.*
 !.env.example
+
+# Local authentication tokens
 jetons.json
+
+# Databases
 *.db
 *.sqlite
 *.sqlite3
 *.db-journal
 backups/
+
+# Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
 venv/
+
+# OS
 .DS_Store
