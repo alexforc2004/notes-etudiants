@@ -55,5 +55,5 @@ def test_modification_par_l_enseignant_du_module():
 def test_erreur_sans_detail_technique(tmp_path, monkeypatch):
  monkeypatch.setattr(application, "DB", str(tmp_path / "absent" / "notes.db"))
  reponse = modifier(15, "jeton-prof-devsecops")
-assert reponse.status_code == 500
+ assert reponse.status_code == 500
  assert "database" not in reponse.get_data(as_text=True).lower()
