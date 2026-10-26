@@ -1,7 +1,27 @@
-.venv/
-__pycache__/
-*.db
+
 .env
 
 # Local authentication tokens
 jetons.json
+.env.*
+!.env.example
+
+# Local authentication tokens
+jetons.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
